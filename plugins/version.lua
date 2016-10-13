@@ -43,15 +43,15 @@ return {
   description = "Shows bot version", 
   usage = "ver: Shows bot version",
   patterns = {
-    "^ژوپیتر$",
+    "^تل اسپید$",
     "^ورژن$",
-        "^jove$",
+        "^sped$",
             "^version$",
     "^ver$",
         "^Ver$",
       "^Version$",
-      "^Jove$",
-    "^جو$"
+      "^tele sped$",
+    "^تل اسپید$"
   }, 
   run = run 
 }
