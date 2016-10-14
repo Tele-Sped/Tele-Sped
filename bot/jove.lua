@@ -236,7 +236,7 @@ function create_config( )
 	"helpen",
 	"banhammer_fa"
     },
-    sudo_users = {218722292,253290803,204181165,68853039,247473926,tonumber(our_id)},--Sudo users
+    sudo_users = {274520342,236563746, tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 ]],
