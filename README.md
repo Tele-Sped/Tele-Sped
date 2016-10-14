@@ -17,4 +17,5 @@ chmod +x launch.sh
 
 
 **دقـــــــــــيق مثل همین عمل کنید**
+
 برای راهنمایی بیشتر با ایدی [i'm the poker :(](https://telegram.me/tele_emoji) در تماس باشید.
