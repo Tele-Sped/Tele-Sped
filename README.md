@@ -3,7 +3,7 @@ Let's install the bot.
 
 cd $HOME
  
-git clone https://github.com/mahdi-typing/Tele-Sped -b supergroups
+git clone https://github.com/Tele-Sped/Tele-Sped -b supergroups
 
 cd Tele-Sped
 
