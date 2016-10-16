@@ -358,6 +358,3 @@ return {
   run = run,
   pre_process = pre_process
 }
---By @POUYA POORRAHMAN :)
----Modified by @Rondoozle for supergroups
-----Ready For Jove TG
