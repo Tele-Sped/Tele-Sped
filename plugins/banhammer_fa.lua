@@ -6,7 +6,7 @@
 |    |  |   |  |   |  |  /  _____  \ |  | \  \|  | |  /  /_  | |____  |  |___|  |   ___/  /    |
 |    |__|   |__|   |__| /__/     \__\|__|  \_____| | |_____| |______|  \_______/  /______/     |
 |--------------------------------------------------|-------------------------------------------|
-| This Project Powered by : Pouya Poorrahman CopyRight 2016 Jove Version 4.0 Anti Spam Cli Bot |
+| This Project Powered by : Pouya Poorrahman CopyRight 2016 Tele-Sped Version 4.0 Anti Spam Cli Bot |
 |----------------------------------------------------------------------------------------------|
 ]]
 local function pre_process(msg)
@@ -129,8 +129,8 @@ local function banall_by_reply(extra, success, result)
 		return
 	end
 		banall_user(result.from.peer_id)
-		send_large_msg(chat, "💠کاربر "..result.from.peer_id.." در ژوپیتر گولبال بن شد💠")
-		send_large_msg(channel, "💠کاربر "..result.from.peer_id.." در ژوپیتر گولبال بن شد💠")
+		send_large_msg(chat, "💠کاربر "..result.from.peer_id.." در تل اسپید گولبال بن شد💠")
+		send_large_msg(channel, "💠کاربر "..result.from.peer_id.." در تل اسپید گولبال بن شد💠")
 	else
 		return
 	end
@@ -410,7 +410,7 @@ if matches[1]:lower() == 'انبن' then-- /ban
 		local receiver = get_receiver(msg)
         savelog(msg.to.id, name.." ["..msg.from.id.."] banedall user ".. matches[2])
         banall_user(matches[2])
-		send_large_msg(receiver, '💠کاربر ['..matches[2]..'] در ژوپیتر گولبال بن شد💠')
+		send_large_msg(receiver, '💠کاربر ['..matches[2]..'] در تل اسپید گولبال بن شد💠')
       else
 		local cbres_extra = {
 		chat_id = msg.to.id,
@@ -445,7 +445,7 @@ if matches[1]:lower() == 'انبن' then-- /ban
 		local receiver = get_receiver(msg)
         savelog(msg.to.id, name.." ["..msg.from.id.."] unbanedall user ".. matches[2])
         unbanall_user(matches[2])
-		send_large_msg(receiver, '💠کاربر ['..matches[2]..'] درژوپیتر ازگولبال بن ازادشد💠')
+		send_large_msg(receiver, '💠کاربر ['..matches[2]..'] درتل اسپید ازگولبال بن ازادشد💠')
       else
 		local cbres_extra = {
 		chat_id = msg.to.id,
