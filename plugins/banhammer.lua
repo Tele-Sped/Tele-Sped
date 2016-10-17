@@ -6,7 +6,7 @@
 |    |  |   |  |   |  |  /  _____  \ |  | \  \|  | |  /  /_  | |____  |  |___|  |   ___/  /    |
 |    |__|   |__|   |__| /__/     \__\|__|  \_____| | |_____| |______|  \_______/  /______/     |
 |--------------------------------------------------|-------------------------------------------|
-| This Project Powered by : Pouya Poorrahman CopyRight 2016 Jove Version 4.0 Anti Spam Cli Bot |
+| This Project Powered by : Pouya Poorrahman CopyRight 2016 Tele-Sped Version 4.0 Anti Spam Cli Bot |
 |----------------------------------------------------------------------------------------------|
 ]]
 local function pre_process(msg)
@@ -297,7 +297,7 @@ end
          	return false
         end
         	banall_user(targetuser)
-       		return '> ['..user_id..' ] Banned for all @JoveTG Groups/SuperGroups! (Globally banned)'
+       		return '> ['..user_id..' ] Banned for all @Tele_Sped Groups/SuperGroups! (Globally banned)'
      else
 	local cbres_extra = {
 		chat_id = msg.to.id,
@@ -317,7 +317,7 @@ end
           	return false
         end
        		unbanall_user(user_id)
-        	return '> ['..user_id..' ] Unbanned for all @JoveTG Groups/SuperGroups! (Unglobally banned)'
+        	return '> ['..user_id..' ] Unbanned for all @Tele_Sped Groups/SuperGroups! (Unglobally banned)'
     else
 		local cbres_extra = {
 			chat_id = msg.to.id,
