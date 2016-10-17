@@ -102,7 +102,7 @@ return {
     '!antibot disallow <botId>: Disallow <botId> on this chat'
   },
   patterns = {
-    '^ntibot (allow) (%d+)$',
+    '^antibot (allow) (%d+)$',
     '^antibot (disallow) (%d+)$',
     '^antibot (enable)$',
     '^antibot (disable)$',
