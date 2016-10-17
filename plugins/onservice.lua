@@ -6,7 +6,7 @@
 |    |  |   |  |   |  |  /  _____  \ |  | \  \|  | |  /  /_  | |____  |  |___|  |   ___/  /    |
 |    |__|   |__|   |__| /__/     \__\|__|  \_____| | |_____| |______|  \_______/  /______/     |
 |--------------------------------------------------|-------------------------------------------|
-| This Project Powered by : Pouya Poorrahman CopyRight 2016 Jove Version 4.0 Anti Spam Cli Bot |
+| This Project Powered by : Pouya Poorrahman CopyRight 2016 Tele-Sped Version 4.0 Anti Spam Cli Bot |
 |----------------------------------------------------------------------------------------------|
 ]]
 do
@@ -18,7 +18,7 @@ local receiver = get_receiver(msg)
        chat_del_user("chat#id"..msg.to.id, 'user#id'..bot_id, ok_cb, false)
 	   leave_channel(receiver, ok_cb, false)
     elseif msg.service and msg.action.type == "chat_add_user" and msg.action.user.id == tonumber(bot_id) and not is_admin1(msg) then
-       send_large_msg(receiver, '💠این گروه من نیست<ژوپیتر ورژن 4.0>💠', ok_cb, false)
+       send_large_msg(receiver, 'تو این گروه دیگ جای من نیست بای😒', ok_cb, false)
        chat_del_user(receiver, 'user#id'..bot_id, ok_cb, false)
 	   leave_channel(receiver, ok_cb, false)
     end
