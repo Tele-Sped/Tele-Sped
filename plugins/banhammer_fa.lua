@@ -147,8 +147,8 @@ local function unbanall_by_reply(extra, success, result)
 		return
 	end
 		unbanall_user(result.from.peer_id)
-		send_large_msg(chat, "💠کاربر "..result.from.peer_id.." در ژوپیتر ازلیست گولبال بن درامد💠")
-		send_large_msg(channel, "💠کاربر "..result.from.peer_id.." در ژوپیتر ازلیست گولبال بن در امد💠")
+		send_large_msg(chat, "💠کاربر "..result.from.peer_id.." در تل اسپید ازلیست گولبال بن درامد💠")
+		send_large_msg(channel, "💠کاربر "..result.from.peer_id.." در تل اسپید ازلیست گولبال بن در امد💠")
 	else
 		return
 	end
@@ -212,10 +212,10 @@ local function kick_ban_res(extra, success, result)
         redis:srem(hash, member_id)
         return '💠کاربر '..user_id..' انبن شد💠'
       elseif get_cmd == 'banall' then
-        send_large_msg(receiver, '💠کاربر @'..member..' ['..member_id..'] درژوپیتر گولبال بن شد💠')
+        send_large_msg(receiver, '💠کاربر @'..member..' ['..member_id..'] در تل اسپید گولبال بن شد💠')
 		banall_user(member_id)
       elseif get_cmd == 'unbanall' then
-        send_large_msg(receiver, '💠کاربر @'..member..' ['..member_id..'] در ژوپتیر انبن ال شد💠')
+        send_large_msg(receiver, '💠کاربر @'..member..' ['..member_id..'] در تل اسپید انبن ال شد💠')
 	    unbanall_user(member_id)
     end
 end
