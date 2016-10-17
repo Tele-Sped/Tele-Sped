@@ -70,6 +70,7 @@ function run(msg, matches)
 🏳link
 〰〰〰〰〰〰〰
 ☑️ #tele-sped V4.0
+For more help with id @Tele_emoji in touch.
 ]]
 end
 
