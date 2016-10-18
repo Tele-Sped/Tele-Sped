@@ -2,7 +2,7 @@ local function sudoteam(msg, matches)
 local mtn = matches[2]
 local link = matches[3]
 if not is_momod(msg) then
-return 'دست نزن بچه😒'
+return 'دست نزن بچه 😐❌'
 end
 if matches[1] == 'bold' then
   return '<b>'..mtn..'</b>'
