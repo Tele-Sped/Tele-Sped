@@ -28,7 +28,7 @@ return {
     "/voice [text]"
   },
   patterns = {
-    "^[!/#]voice +(.*)$",
+    "^[!/#][Vv][Oo][Ii][Cc][Ee] +(.*)$",
 
   },
   run = run
