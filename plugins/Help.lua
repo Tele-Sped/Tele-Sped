@@ -131,8 +131,8 @@ end
  end
 return {
 patterns = {
-"^[!/#][Hh]elp$",
-"^[Hh]elp$",
+"^[!/#][Hh][Ee][Ll][Pp]$",
+"^[Hh][Ee][Ll][Pp]$",
 "^راهنما$",
 },
 run = run
