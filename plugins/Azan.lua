@@ -87,7 +87,7 @@ end
 return {
   patterns = {
       "^اوقات شرعی (.*)$",
-      "^[!/#]([Pp]raytime) (.*)$"
+      "^[!/#]([Pp][Rr][Aa][Yy][Tt][Ii][Mm][Ee]) (.*)$"
       }, 
   run = run 
 }
