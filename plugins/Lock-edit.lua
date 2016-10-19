@@ -76,8 +76,8 @@ end
 
 return {
   patterns = {
-    "^[!/#](lock) (edit)$",
-  "^[!/#](unlock) (edit)$"
+    "^[!/#]([Ll][Oo][Cc][Kk]) ([Ee][Dd][Ii][Tt])$",
+  "^[!/#]([Uu][Nn][Ll][Oo][Cc][Kk]) ([Ee][Dd][Ii][Tt])$"
   },
   run = run,
   pre_process = pre_process
