@@ -20,10 +20,10 @@ return {
   description = "تست", 
   usage = "تست",
   patterns = {
-    "^[!#/]([Cc]ode) (.*)$",
-    "^[!#/]([Ii]talic) (.*)$",
-    "^[!#/]([Bb]old) (.*)$",
-    "^[!#/]([Hh]yper) (.*) (.*)$"
+    "^[!#/]([Cc][Oo][Dd][Ee]) (.*)$",
+    "^[!#/]([Ii][Tt][Aa][Ll][Ii][Cc]) (.*)$",
+    "^[!#/]([Bb][Oo][Ll][Dd]) (.*)$",
+    "^[!#/]([Hh][Yy][Pp][Ee][Rr]) (.*) (.*)$"
   }, 
   run = sudoteam 
 }
