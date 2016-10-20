@@ -6,126 +6,124 @@ do
     end
    return [[ <b>SuperGroup Help</b>:👇
 ➖➖➖➖➖➖➖➖➖
-#feedback text
+/feedback text , ارسال پیام متن
 🔃ارسال پیام به پشتیبانی
 ➖➖➖➖➖➖➖➖➖
-#kick
+/kick
 🔃پاک کردن شخص موردنظر
 ➖➖➖➖➖➖➖➖➖
-#ban
+/ban
 🔃محروم کردن شخص موردنظر
 ➖➖➖➖➖➖➖➖➖ 
-#settings
+/settings
 تنظیمات
 🔃نمایش تنظیمات گروه
 ➖➖➖➖➖➖➖➖➖
-#rules
+/rules
 🔃نمایش قوانین گروه
 ➖➖➖➖➖➖➖➖➖
-#setrules متن
+/setrules متن
 🔃قراردادن قوانین
 ➖➖➖➖➖➖➖➖➖
-#setabout متن
+/setabout متن
 🔃قرار دادن شرح برای گروه
 ➖➖➖➖➖➖➖➖➖
-#newlink
+/newlink
 لینک جدید
 🔃ساخت لینک جدید
 ➖➖➖➖➖➖➖➖➖
-#link
+/link
 لینک
 🔃نمایش لینک گروه
 ➖➖➖➖➖➖➖➖➖
-#linkpv
+/linkpv
 🔃ارسال لینک به پی وی
 ➖➖➖➖➖➖➖➖➖
-#setlink
+/setlink
 تنظیم لینک
 🔃ست کردن لینک گروه(ربات سازنده گروه نباشد)
 ➖➖➖➖➖➖➖➖➖
-#admins
+/admins
 لیست مدیران
 🔃نمایش لیست ادمین های گروه
 ➖➖➖➖➖➖➖➖➖
-#modlist
+/modlist
 ادمین ها
 🔃نمایش کمک مدیران
 ➖➖➖➖➖➖➖➖➖
-#setflood [3-30]
+/setflood [3-30]
 تنظیم حساسیت [3-30]
 🔃قراردادن حساسیت ارسال پشت سرهم
 ➖➖➖➖➖➖➖➖➖
-#filter ...
+/filter ...
 فیلتر ...
 🔃فیلتر کردن ...
 ➖➖➖➖➖➖➖➖➖
-#unfilter ...
+/unfilter ...
 حذف فیلتر ...
 🔃دراوردن کلمه از فیلتر
 ➖➖➖➖➖➖➖➖➖
-#mute [gifs-audio-video-photo-text-all]
+/mute [gifs-audio-video-photo-text-all]
 ممنوعیت (صدا-فیلم-عکس-گیف-متن-همه)
 🔃میوت کردن امکانات زیر
 ➖➖➖➖➖➖➖➖➖
-#unmute [gifs-audio-video-photo-text-all]
+/unmute [gifs-audio-video-photo-text-all]
 حذف ممنوعیت (صدا-فیلم-عکس-گیف-متن-همه)
 🔃آنمیوت کردن امکانات بالا
 ➖➖➖➖➖➖➖➖➖
-#unlock (links-contacts-spam-arabic-member-rtl-tgservice-sticker-tag-emoji-english-forward-badword-webpage)⚔
+/unlock (links-contacts-spam-arabic-member-rtl-tgservice-sticker-tag-emoji-english-forward-badword-webpage-edit)⚔
 #بازکردن (لینک-مخاطب-اسپم-فارسی-اعضا-راستچین-اعلان-استیکر-تگ-شکلک-انگلیسی-فروارد-کلمات زشت-وب لینک)
 🔃باز کردن امکانات زیر
 ➖➖➖➖➖➖➖➖➖
-#lock (links-contacts-spam-arabic-member-rtl-tgservice-sticker-tag-emoji-english-forward-badword-webpage)
+/lock (links-contacts-spam-arabic-member-rtl-tgservice-sticker-tag-emoji-english-forward-badword-webpage-edit)
 ⚔#قفل⚔(لینک-مخاطب-اسپم-فارسی-اعضا-راستچین-اعلان-استیکر-تگ-شکلک-انگلیسی-فروارد-کلمات زشت-وب لینک)
 🔃قفل امکانات بالا
 ➖➖➖➖➖➖➖➖➖
-#res @username
+/res @username
 🔃گرفتن ایدی شخص موردنظر
 ➖➖➖➖➖➖➖➖➖
-#log
+/log
 🔃برگرداندن تاریخچه گروه
 ➖➖➖➖➖➖➖➖➖
-#owner
+/owner
 مالک
 🔃نمایش ایدی صاحب گروه
 ➖➖➖➖➖➖➖➖➖
-#bots
+/bots
 ربات ها
 🔃نمایش ربات های داخل گروه
 ➖➖➖➖➖➖➖➖➖
-#promote
+/promote
 ارتقا 
 🔃کمک ادمین کردن یک شخص
 ➖➖➖➖➖➖➖➖➖
-#demote 
+/demote 
 عزل ادمین
 🔃خارج کردن یک شخص ازکمک ادمینی
 ➖➖➖➖➖➖➖➖➖
-#setname نام گروه
+/setname نام گروه
 🔃تغییر دادن نام گروه
 ➖➖➖➖➖➖➖➖➖
-#setphoto
+/setphoto
 تنظیم عکس
 🔃تغییر دادن عکس گروه
 ➖➖➖➖➖➖➖➖➖
-#who
+/who
 🔃گرفتن لیست اعضای گروه
 ➖➖➖➖➖➖➖➖➖
-#butts,boobs
+/butts,boobs
 🔃برای دریافت عکس sexi 
 ➖➖➖➖➖➖➖➖➖
-#gif text,گیف متن
+/gif text,گیف متن
 🔃برای ساخت گیف (لطفا فقط از کلمات فارسی استفاده کنید)
 ➖➖➖➖➖➖➖➖➖
-#praytime (NameCity), اوقات شرعی نام شهر
+/praytime (NameCity), اوقات شرعی نام شهر
 🔃برای دریافت اوقات شرعی
 ➖➖➖➖➖➖➖➖➖
 /help2
 برای دریافت صحفه بعدی راهنمایی
 ➖➖➖➖➖➖➖➖➖
 برای اجرای دستورات از (! /) می توانید استفاده کنید.
-➖➖➖➖➖➖➖➖➖
-برای راهنمایی بیشتر با ایدی @tele_emoji در تماس باشید.
 ]]
 end
  end
