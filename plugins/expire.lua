@@ -55,32 +55,32 @@ local function pre_process(msg)
 	end
 	if tonumber(timetoexpire) == 0 then
 		if redis:hget('expires0',msg.to.id) then return msg end
-		send_large_msg(get_receiver(msg), '0 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @JoveTGBot')
+		send_large_msg(get_receiver(msg), '0 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @tele_emoji')
 		redis:hset('expires0',msg.to.id,'5')
 	end
 	if tonumber(timetoexpire) == 1 then
 		if redis:hget('expires1',msg.to.id) then return msg end
-		send_large_msg(get_receiver(msg), '1 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @JoveTGBot')
+		send_large_msg(get_receiver(msg), '1 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @tele_emoji')
 		redis:hset('expires1',msg.to.id,'5')
 	end
 	if tonumber(timetoexpire) == 2 then
 		if redis:hget('expires2',msg.to.id) then return msg end
-		send_large_msg(get_receiver(msg), '2 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @JoveTGBot')
+		send_large_msg(get_receiver(msg), '2 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @tele_emoji')
 		redis:hset('expires2',msg.to.id,'5')
 	end
 	if tonumber(timetoexpire) == 3 then
 		if redis:hget('expires3',msg.to.id) then return msg end
-		send_large_msg(get_receiver(msg), '3 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @JoveTGBot')
+		send_large_msg(get_receiver(msg), '3 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @tele_emoji')
 		redis:hset('expires3',msg.to.id,'5')
 	end
 	if tonumber(timetoexpire) == 4 then
 		if redis:hget('expires4',msg.to.id) then return msg end
-		send_large_msg(get_receiver(msg), '4 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @JoveTGBot')
+		send_large_msg(get_receiver(msg), '4 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @tel_emoji')
 		redis:hset('expires4',msg.to.id,'5')
 	end
 	if tonumber(timetoexpire) == 5 then
 		if redis:hget('expires5',msg.to.id) then return msg end
-		send_large_msg(get_receiver(msg), '5 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @JoveTGBot')
+		send_large_msg(get_receiver(msg), '5 روز تا پایان تاریخ انقضای گروه باقی مانده است\nنسبت به تمدید اقدام کنید\nربات جهت تمدید: @tele_emoji')
 		redis:hset('expires5',msg.to.id,'5')
 	end
 end
