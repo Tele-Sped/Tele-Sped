@@ -1484,7 +1484,7 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return "🤖TeleSurena🤖\n➖➖➖➖➖➖➖➖➖➖➖\n👤درباره شما👤\n📝نام شما : " ..string.gsub(msg.from.print_name, "_", " ").. "\n📝ایدی شما : "..msg.from.id.."\n📝یوزرنیم شما : @"..(msg.from.username or '----').."\n➖➖➖➖➖➖➖➖➖➖➖\n👥درباره گروه👥\n📝نام سوپرگروه : " ..string.gsub(msg.to.print_name, "_", " ").. "\n📝ایدی سوپر گروه : "..msg.to.id.."\n➖➖➖➖➖➖➖➖➖➖➖\n📝@TeleSurenaCH📝"
+				return "🤖TeleSurena🤖\n➖➖➖➖➖➖➖➖➖➖➖\n👤درباره شما👤\n📝نام شما : " ..string.gsub(msg.from.print_name, "_", " ").. "\n📝ایدی شما : "..msg.from.id.."\n📝یوزرنیم شما : telegram.me/"..(msg.from.username or '----').."\n➖➖➖➖➖➖➖➖➖➖➖\n👥درباره گروه👥\n📝نام سوپرگروه : " ..string.gsub(msg.to.print_name, "_", " ").. "\n📝ایدی سوپر گروه : "..msg.to.id.."\n➖➖➖➖➖➖➖➖➖➖➖\n📝@TeleSurenaCH📝"
             end
 		end
 
